@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="cubo_estrella.Front" size="20.000000 20.000000"/>
+        <ImageTarget name="cubo_estrella.Top" size="20.000000 20.000000"/>
+        <ImageTarget name="cubo_estrella.Bottom" size="20.000000 20.000000"/>
+        <ImageTarget name="cubo_estrella.Left" size="20.000000 20.000000"/>
+        <ImageTarget name="cubo_estrella.Right" size="20.000000 20.000000"/>
+        <ImageTarget name="cubo_estrella.Back" size="20.000000 20.000000"/>
+        <MultiTarget name="cubo_estrella">
+            <Part name="cubo_estrella.Left" translation="-10.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cubo_estrella.Right" translation="10.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cubo_estrella.Front" translation="0 0 10.0" rotation="AD: 1 0 0 0"/>
+            <Part name="cubo_estrella.Back" translation="0 0 -10.0" rotation="AD: 0 1 0 180"/>
+            <Part name="cubo_estrella.Top" translation="0 10.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cubo_estrella.Bottom" translation="0 -10.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
